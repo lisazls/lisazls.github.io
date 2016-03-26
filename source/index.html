@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<section class="hero">
+  	<div class="hero-inner">
+	    <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
+	    <div class="font18">Hi,I’m LisaZ,</div>
+	    <div class="font16">不会代码的小美工不是好的交互设计师</div>
+	</div>
+</section>
+
+
+<div class="portfolio_header">
+	<div class="portfolio_title">Portfolio</div>
+	<a href="portfolio" class="more">More ></a>
+</div>
+
+
+<div class="wrapper"> 
+
+	{% if site.posts.size == 1%}
+		{% include card.html%}
+	{% endif %}
+
+	{% if site.posts.size == 2%}
+		{% include card.html%}
+		{% include card_margin.html%}
+		{% include card.html%}
+	{% endif %}
+
+	{% if site.posts.size >= 3%}
+		{% include card.html%}
+		{% include card_margin.html%}
+		{% include card.html%}
+		{% include card_margin.html%}
+		{% include card.html%}
+	{% endif %}
+
+</div>
+
+
+<div class="portfolio_header">
+	<div class="portfolio_title">Blog</div>
+	<a href="blog" class="more">More ></a>
+</div>
+
+</div>
