@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+<script>
+      $(document).ready(function() {
+        var arr = $('.article_subtitle');
+        if( arr.length > 0 ) {
+          for( var i = 0; i < arr.length; i++) {
+            arr.get(i).parentElement.parentElement.style.listStyle = 'initial';
+          }
+        }
+      });
+</script>
+  <body>
+    <main>
+      {% include header.html %}
+
+
+        <div class="promote" style="background-image: url({{ site.baseurl }}/{{ page.promote }});">
+          
+          <div class="article_title">{{page.title}}</div>
+          <div class="article_summary">{{page.summary}}</div>
+
+        </div>
+
+      <div class="container">
+        {{ content }}
+      </div>
+
+      <!-- {% include footer.html %} -->
+
+    
+    </main>
+  </body>
+</html>

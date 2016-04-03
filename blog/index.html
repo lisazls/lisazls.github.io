@@ -2,10 +2,15 @@
 layout: default
 ---
 
-<section class="post-list">
-  {% for post in paginator.posts %}
-    {% include article.html %}
-  {% endfor %}
+{% assign headerIndex = 'Blog'%}
+{% include header.html %}
 
-  {% include pagination.html %}
+<div class="portfolio_header">
+	<div href="blog" class="portfolio_title"><span href="blog" class="portfolio_color">blog</span></div>
+</div>
+
+<section class="post-list">
+	{% for blog in site.categories.blog%}
+		{% include card2.html%}
+	{% endfor %}
 </section>

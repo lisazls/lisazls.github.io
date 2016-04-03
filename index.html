@@ -2,47 +2,78 @@
 layout: default
 ---
 
+{% assign headerIndex = 'Home'%}
+{% include header.html %}
+
+
 <section class="hero">
   	<div class="hero-inner">
 	    <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
 	    <div class="font18">Hi,I’m LisaZ,</div>
-	    <div class="font16">不会代码的小美工不是好的交互设计师</div>
+	    <div class="font16">一个交互小学生的进阶日常</div>
 	</div>
 </section>
 
 
 <div class="portfolio_header">
-	<div class="portfolio_title">Portfolio</div>
+	<div href="portfolio" class="portfolio_title"><a href="portfolio" class="portfolio_color">portfolio</a></div>
 	<a href="portfolio" class="more">More ></a>
 </div>
 
 
 <div class="wrapper"> 
 
-	{% if site.posts.size == 1%}
+	{% if site.categories.portfolio.size == 1%}
+		{% assign portfolio = site.categories.portfolio[0] %}
 		{% include card.html%}
 	{% endif %}
 
-	{% if site.posts.size == 2%}
+	{% if site.categories.portfolio.size == 2%}
+		{% assign portfolio = site.categories.portfolio[0] %}
 		{% include card.html%}
 		{% include card_margin.html%}
+		{% assign portfolio = site.categories.portfolio[1] %}
 		{% include card.html%}
 	{% endif %}
 
-	{% if site.posts.size >= 3%}
+	{% if site.categories.portfolio.size >= 3%}
+		{% assign portfolio = site.categories.portfolio[0] %}
 		{% include card.html%}
 		{% include card_margin.html%}
+		{% assign portfolio = site.categories.portfolio[1] %}
 		{% include card.html%}
 		{% include card_margin.html%}
+		{% assign portfolio = site.categories.portfolio[2] %}
 		{% include card.html%}
 	{% endif %}
 
 </div>
 
-
+	{% if site.categories.blog.size > 0%}
 <div class="portfolio_header">
-	<div class="portfolio_title">Blog</div>
+	<div href="blog" class="portfolio_title"><a href="blog" class="portfolio_color">blog</a></div>
 	<a href="blog" class="more">More ></a>
 </div>
+	{% endif %}
 
-</div>
+	{% if site.categories.blog.size == 1%}
+		{% assign blog = site.categories.blog[0] %}
+		{% include card2.html%}
+	{% endif %}
+
+	{% if site.categories.blog.size == 2%}
+		{% assign blog = site.categories.blog[0] %}
+		{% include card2.html%}
+		{% assign blog = site.categories.blog[1] %}
+		{% include card2.html%}
+	{% endif %}
+
+	{% if site.categories.blog.size >= 3%}
+		{% assign blog = site.categories.blog[0] %}
+		{% include card2.html%}
+		{% assign blog = site.categories.blog[1] %}
+		{% include card2.html%}
+		{% assign blog = site.categories.blog[2] %}
+		{% include card2.html%}
+	{% endif %}
+

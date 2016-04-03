@@ -29,7 +29,7 @@ body {
 }
 
 .kong {
-  height:80px;
+  height:56px;
 
 }
 
@@ -44,6 +44,8 @@ body {
   padding: 6px 0;
   margin-bottom: $base-spacing;
   border-bottom: 1px solid #eeeeee;
+  z-index:10;
+  
 h1 {
     margin: 0;
     float: left;
@@ -79,6 +81,10 @@ h1 {
     &:hover,
     &:focus,
     &:active {
+      color: $dark-gray-color;
+    }
+
+    .nav_dark_grey {
       color: $dark-gray-color;
     }
   }
@@ -213,7 +219,7 @@ body.home {
   display: inline-block;
   width:272px;
   margin:0 auto;
-  height: 231px;
+  height: 200px;
   padding-top: 5px;
  
   .font18 {
@@ -397,6 +403,7 @@ body.home {
   position: relative;
 
 }
+
 .portfolio_title{
   border-bottom: solid #E8E8E8 2px;
   text-align:center;
@@ -404,12 +411,31 @@ body.home {
   font-size: 18px;
   height:40px;
   width:30%;
-  margin: 0 auto 20px auto;
+  margin: 20px auto 20px auto;
 }
+
+.portfolio_color{
+  color:#808080;
+   hover,
+   focus,
+   active {
+      color: #3B3B3B;}
+
+}
+
 .more {
   position: absolute;
+ font-color:#3B3B3B;
+ font-family: Futura LT Light;
   right: 0%;
   top: 10px;
+  color:#ACACAC;
+
+     &:hover,
+    &:focus,
+    &:active {
+      color: $dark-gray-color;
+    }
 }
 
 

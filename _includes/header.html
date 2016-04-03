@@ -11,7 +11,11 @@
     <nav class="navbar sliding-panel-content">
       <ul>
         {% for item in site.navbar %}
-          <li><a href="{{ '/' | prepend: site.baseurl }}{{ item.slug }}" title="">{{ item.title }}</a></li>
+          {% if headerIndex == item.title %}
+            <li><a href="{{ '/' | prepend: site.baseurl }}{{ item.slug }}" title="" style="color:#3B3B3B;">{{ item.title }}</a></li>
+          {% else %}
+            <li><a href="{{ '/' | prepend: site.baseurl }}{{ item.slug }}" title="">{{ item.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </nav>

@@ -1,0 +1,12 @@
+<div class="portfoliocard">
+	<!-- <div class="portfoliocard" data-index="0">  -->
+		<div class="portfoliocard_content">
+			<a  href="{{ site.baseurl}}{{ portfolio.url }}">
+				<img class="portfoliocard_image" src="{{ site.baseurl }}/{{portfolio.icon}}" alt="">
+				<div class="portfoliocard_title">{{ portfolio.title }}</div>
+				<div class="portfoliocard_desc">{{ portfolio.summary }}</div>
+			</a>
+			<div class="portfoliocard_time">{{ portfolio.date | date: "%b %-d, %Y" }}</div>
+		</div>
+	<!-- </div> -->
+</div>
