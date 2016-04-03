@@ -1,0 +1,164 @@
+
+/*newcard */
+
+.newcard {
+	position: relative;
+	float: left;
+	max-width: 32%;
+	max-height: 100%;
+	border:#F3f3f3 1px solid;
+}
+
+.newcard__container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+
+
+.newcard__image {
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 66%;
+}
+
+/* Fix IE */
+
+.newcard__container--fix-image .newcard__image {
+	position: fixed;
+}
+
+.newcard__content {
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	margin: 400px auto 60px;
+	padding: 30px 40px 22px;
+	background: #fff;
+}
+
+
+.newcard__caption {
+	font-size: 2em;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 35px 30px 0px;
+}
+
+.newcard__container--closed .newcard__caption {
+	font-size: 1em;
+	max-width: auto;
+	padding: 10px 10px 25px;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.newcard__title {
+	font-size: 1.5em;
+	line-height: 1;
+	margin: 5px 0 0 0;
+	color: #3b393d;
+}
+
+.newcard__container--closed .newcard__title {
+	color: #fff;
+}
+
+.newcard__subtitle {
+	font-size: .95em;
+	line-height: 1;
+	margin: 5px 0 0;
+	color: #777778;
+}
+
+.newcard__copy {
+	font-size: 1.25em;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 25px 30px 100px;
+	color: #3b393d;
+}
+
+.newcard__copy p:first-of-type {
+	font-size: 1.5em;
+	padding: 0 0 1em 0;
+}
+
+.newcard__btn-close {
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 36px;
+	cursor: pointer;
+}
+
+
+/* newcards wrapper and close btn */
+
+.wrapper {
+	overflow: auto;
+	width: 100%;
+	height: 400px;
+	max-width: 1000px;
+	max-height: 400px;
+}
+
+
+.newcard_margin {
+	width: 2%;
+	float: left;
+	height: 20px;
+}
+
+
+.newcard_container{
+    width:100%;
+    height:100%;
+    position:relative;
+    display: inline-block;
+}
+.newcard_dummy{
+    margin-top: 100%;
+}
+.newcard_content{
+    position:absolute;
+    left:2%;
+    right:2%;
+    top:2%;
+    bottom:2%;
+}
+
+.card_title{    
+	font-family: FZLanTingHei-R-GBK;
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.card_desc{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: FZLanTingHeiS-EL-GB;
+    overflow: hidden;
+    font-size: 14px;
+    height: 70px;
+}
+
+.card_time{
+	padding-top: 1%;
+    font-family: Futura LT Light;
+    overflow: hidden;
+    font-size: 12px;
+    height: 18px;
+}

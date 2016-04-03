@@ -18,7 +18,7 @@ $ch-light:FZLanTingHeiS-EL-GB;*/
 	margin-right:2%;
 }*/
 
-.article_left_img{ 
+.articl_left_img{ 
     margin:0 2% 2% auto; 
     float:left;
     width:48%;
@@ -35,7 +35,7 @@ $ch-light:FZLanTingHeiS-EL-GB;*/
 
 .article_maintitle {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     color: #3b3b3b;
     font-family: FZLanTingHei-R-GBK;
     
@@ -52,7 +52,7 @@ $ch-light:FZLanTingHeiS-EL-GB;*/
     height: 24px;
     text-align: center;
     line-height: 24px;
-    font-size: 22px;
+    font-size: 20px;
     color: #333;
     position: relative;
     top: -14px;
