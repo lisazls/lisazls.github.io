@@ -4,8 +4,7 @@ title:  "中奖揭晓页"
 date: 2015-10-20 13:46:52
 categories: portfolio
 summary: 新用户需要通过这个页面了解真实性，甚至探索中奖规律等。老用户会从这个网站找到自己想要的，所以要权衡好。
-promote: images/02tou-zjjx.png
-icon: images/02icon.png
+promote: images/02tou-zjjx.jpg
 ---
 <br><br>
 此次改版主要，一是由于详情页改版，为了风格保持一致，切让页面看起来简洁有有用。二是将中奖计算公式优化了一下，便于用户快速了解。

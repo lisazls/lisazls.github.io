@@ -4,7 +4,7 @@ title:  "收银流程"
 date: 2015-11-10 13:46:52
 categories: portfolio
 summary: 改版收银流程主要是加了订单的概念，为以后电商之路做好准备。
-promote: images/03tou-sylc.png
+promote: images/03tou-sylc.jpg
 icon: images/03tijiaodingdan.jpg
 ---
 <br><br>

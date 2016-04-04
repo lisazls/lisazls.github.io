@@ -4,7 +4,7 @@ title: "商品详情页"
 summary: 商品详情页主要考虑，主要内容与次要内容，合理摆放与突出核心视觉点与核心行为层。以用户去下单为主要目标。
 date: 2015-09-18 13:46:52
 categories: portfolio
-promote: images/01tou-spxq.png
+promote: images/01tou-spxq.jpg
 icon: images/01gaibanhou.png
 
 ---
