@@ -5,7 +5,7 @@ summary: 商品详情页主要考虑，主要内容与次要内容，合理摆�
 date: 2015-09-18 13:46:52
 categories: portfolio
 promote: images/01tou-spxq.jpg
-icon: images/01gaibanhou.png
+icon: images/01gaibanhou.jpg
 
 ---
 
@@ -22,7 +22,7 @@ icon: images/01gaibanhou.png
 {% assign maintitle = '头脑风暴' %}
 {% include article_maintitle.html%}
 <div class="article_left_img">
-	<img src="{{ site.baseurl }}/images/01tounaofengbao.png" alt="头脑风暴" >  
+	<img src="{{ site.baseurl }}/images/01tounaofengbao.jpg" alt="头脑风暴" >  
 </div>
 <br />
 最终选择全价在上，夺宝在下的众筹模式。
@@ -35,7 +35,7 @@ icon: images/01gaibanhou.png
 {% include article_maintitle.html%}
 <p class="text_centre">众筹类商品详情页</p>  
 <br />
-![头竞品分析]({{ site.baseurl }}/images/01jingpinfenxi.png)
+![头竞品分析]({{ site.baseurl }}/images/01jingpinfenxi.jpg)
 
 
 
@@ -44,13 +44,13 @@ icon: images/01gaibanhou.png
 
 <div class="article_left_img">
 	改版前
-	<img src="{{ site.baseurl }}/images/01gaibianqian.png" alt="改变前" >  
+	<img src="{{ site.baseurl }}/images/01gaibianqian.jpg" alt="改变前" >  
 	
 </div>
 
 <div class="article_right_img">
 	改版后
-	<img src="{{ site.baseurl }}/images/01gaibanhou.png" alt="改版后" >  
+	<img src="{{ site.baseurl }}/images/01gaibanhou.jpg" alt="改版后" >  
 	
 </div>
 
@@ -78,11 +78,11 @@ icon: images/01gaibanhou.png
 
 <div class="article_left_img">
 	夺宝在上
-	<img src="{{ site.baseurl }}/images/01duobaozaishang.png" alt="夺宝在上" >  
+	<img src="{{ site.baseurl }}/images/01duobaozaishang.jpg" alt="夺宝在上" >  
 </div>
 <div class="article_left_img">
 	融合在一个页面
-	<img src="{{ site.baseurl }}/images/01ronghe.png" alt="融合在一个页面" >  
+	<img src="{{ site.baseurl }}/images/01ronghe.jpg" alt="融合在一个页面" >  
 </div>
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp; 在夺宝模式中加入全价购买模式，最重要的体现还是在商品详情页上。在经历了两个历史版本之后，才出现了现在的版本。
@@ -95,10 +95,10 @@ icon: images/01gaibanhou.png
 {% assign maintitle = '交互稿' %}
 {% include article_maintitle.html%}
 
-<img src="{{ site.baseurl }}/images/01jiaohu.png" alt="交互"> 
+<img src="{{ site.baseurl }}/images/01jiaohu.jpg" alt="交互"> 
 
 <br /><br />
 
 * <span class="article_subtitle">详情页与揭晓页的关系</span>  <br />
-![交互流程]({{ site.baseurl }}/images/01jiaohuliucheng.png)
+![交互流程]({{ site.baseurl }}/images/01jiaohuliucheng.jpg)
 

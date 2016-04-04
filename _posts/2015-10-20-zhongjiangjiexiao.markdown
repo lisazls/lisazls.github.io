@@ -5,6 +5,7 @@ date: 2015-10-20 13:46:52
 categories: portfolio
 summary: 新用户需要通过这个页面了解真实性，甚至探索中奖规律等。老用户会从这个网站找到自己想要的，所以要权衡好。
 promote: images/02tou-zjjx.jpg
+icon: images/02icon.jpg
 ---
 <br><br>
 此次改版主要，一是由于详情页改版，为了风格保持一致，切让页面看起来简洁有有用。二是将中奖计算公式优化了一下，便于用户快速了解。
@@ -16,7 +17,7 @@ promote: images/02tou-zjjx.jpg
 
 <div class="article_left_img">
 	改版前
-	<img src="{{ site.baseurl }}/images/02gaibanqian.png" alt="改变前" >  
+	<img src="{{ site.baseurl }}/images/02gaibanqian.jpg" alt="改变前" >  
 	
 </div>
 <div class="article_right_img">
@@ -53,11 +54,11 @@ promote: images/02tou-zjjx.jpg
 
 <div class="article_left_img">
 	方案一：显示全价与最新一期
-	<img src="{{ site.baseurl }}/images/02jiaohu1.png" alt="交互1" >  
+	<img src="{{ site.baseurl }}/images/02jiaohu1.jpg" alt="交互1" >  
 </div>
 <div class="article_right_img">
 	方案二：只显示最新一期详情
-	<img src="{{ site.baseurl }}/images/02jiaohu2.png" alt="交互2" >  
+	<img src="{{ site.baseurl }}/images/02jiaohu2.jpg" alt="交互2" >  
 </div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -72,7 +73,7 @@ promote: images/02tou-zjjx.jpg
 {% include article_maintitle.html%}
 <div class="article_left_img">
 	改版前
-	<img src="{{ site.baseurl }}/images/02djsgaibanqian.png" alt="倒计时改版前" >  
+	<img src="{{ site.baseurl }}/images/02djsgaibanqian.jpg" alt="倒计时改版前" >  
 </div>
 <div class="article_right_img">
 	改版后

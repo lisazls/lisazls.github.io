@@ -16,7 +16,7 @@ icon: images/03tijiaodingdan.jpg
 
 * <span class="article_subtitle">使用场景</span>  <br />
 <div class="article_right_img">
-	<img src="{{ site.baseurl }}/images/03tounaofengbao.png" alt="头脑风暴" >  	
+	<img src="{{ site.baseurl }}/images/03tounaofengbao.jpg" alt="头脑风暴" >  	
 </div>
 用户B：夺宝用户，平常闲的没事就夺夺宝，看到可以全价购买了，但不想购买，还是想要多宝。<br>
 用户A：购物用户，很想要某件商品，看到有夺宝的功能尝试了几下，没有中最终决定全价购买。<br>
@@ -26,7 +26,7 @@ icon: images/03tijiaodingdan.jpg
 {% assign maintitle = '收银流程' %}
 {% include article_maintitle.html%}
 
-<img src="{{site.baseurl}}/images/03shouyinliuchengtu.png" alt="收银流程图"> 
+<img src="{{site.baseurl}}/images/03shouyinliuchengtu.jpg" alt="收银流程图"> 
 
 * <span class="article_subtitle">思考过程</span>  <br />
 考虑到毕竟是要渐渐变成一个购物类网站，收银流程也应该按照购物类来说，后台需要锁库存，还是需要有一个订单的概念。
@@ -45,7 +45,7 @@ icon: images/03tijiaodingdan.jpg
 	
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 * <span class="article_subtitle">主要改动</span>  <br />
 ①现有的模式：没有订单的说法。<br>
