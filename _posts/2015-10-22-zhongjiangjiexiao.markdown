@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "中奖揭晓页"
-date: 2015-10-20 13:46:52
+date: 2015-10-22 13:46:52
 categories: portfolio
 summary: 新用户需要通过这个页面了解真实性，甚至探索中奖规律等。老用户会从这个网站找到自己想要的，所以要权衡好。
 promote: images/02tou-zjjx.jpg

@@ -84,7 +84,7 @@ icon: images/01icon.jpg
 	融合在一个页面
 	<img src="{{ site.baseurl }}/images/01ronghe.jpg" alt="融合在一个页面" >  
 </div>
-<br />
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp; 在夺宝模式中加入全价购买模式，最重要的体现还是在商品详情页上。在经历了两个历史版本之后，才出现了现在的版本。
 做这个页面改版的时候不仅仅是样式那么简单，还涉及到很多东西。<br>
 &nbsp;&nbsp;&nbsp;&nbsp;1.要考虑到要做全价购买的目的，是为了做电商而转型的一个过渡模式的试水。所以既不能把两种购买方式分的太开没人注意到，又不能完全像一个电商一样没有区分。<br>
