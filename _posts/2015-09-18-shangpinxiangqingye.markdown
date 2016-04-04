@@ -5,7 +5,7 @@ summary: 商品详情页主要考虑，主要内容与次要内容，合理摆�
 date: 2015-09-18 13:46:52
 categories: portfolio
 promote: images/01tou-spxq.jpg
-icon: images/01gaibanhou.jpg
+icon: images/01icon.jpg
 
 ---
 

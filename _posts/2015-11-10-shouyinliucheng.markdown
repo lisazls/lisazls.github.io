@@ -5,7 +5,7 @@ date: 2015-11-10 13:46:52
 categories: portfolio
 summary: 改版收银流程主要是加了订单的概念，为以后电商之路做好准备。
 promote: images/03tou-sylc.jpg
-icon: images/03tijiaodingdan.jpg
+icon: images/03icon.jpg
 ---
 <br><br>
 夺宝与全价购买设计成一套收银流程，但根据使用场景等分析后，最终设计成不公用购物车及一起付款，而要分开付款。
