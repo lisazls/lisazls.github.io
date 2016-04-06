@@ -221,18 +221,31 @@ body.home {
   margin:0 auto;
   height: 200px;
   padding-top: 5px;
+
  
   .font18 {
     font-family:$bold-font-family;
     font-size:18px;
-    height:40px;
-    line-height:40px;
+    line-height:20px;
+    margin-top:10px;
+  
+    
   }
+
+。font17{
+  font-family:$light-font-family;
+  font-size:18px;
+
+
+
+
+}
+
   .font16{
     font-family:FZLanTingHeiS-EL-GB;
     font-size:16px;
-    height:30px;
-    line-height:30px;
+    margin-top:20px;
+
   }
 
   .dot {
@@ -400,6 +413,7 @@ body.home {
 }
 
 .portfolio_header {
+  margin-top:40px;
   position: relative;
 
 }
@@ -408,10 +422,10 @@ body.home {
   border-bottom: solid #E8E8E8 2px;
   text-align:center;
   font-family: Futura LT Book;
-  font-size: 18px;
+  font-size: 22px;
   height:40px;
   width:30%;
-  margin: 20px auto 20px auto;
+  margin: 10px auto 20px auto;
 }
 
 .portfolio_color{

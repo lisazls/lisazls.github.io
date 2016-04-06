@@ -2,7 +2,7 @@
 layout: article
 title: "交互设计常见细节"
 summary: 交互设计由许多细小的细节组成的，深思熟虑地设计这些变化，就能为用户创造优美的体验。
-date: 2016-03-21 13:46:52
+date: 2015-11-09 13:46:52
 categories: blog
 promote: images/07blog1.jpg
 icon: images/07blog-icon.jpg
