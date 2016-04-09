@@ -1,16 +1,22 @@
+.portfolio_container {
+    max-width: 1008px;
+    margin: 0 auto;
+}
+
 .portfolio-list {
 	display: -webkit-flex-wrap;
 	display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-start;
 }
 
 .portfoliocard {
-	width: 32%;
+	width: 320px;
 	max-height: 400px;
 	height: 400px;
 	border:#F3f3f3 1px solid;
+    margin: 0 8px 16px 8px;
 }
 
 .portfoliocard_content{

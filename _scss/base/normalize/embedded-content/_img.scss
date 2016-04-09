@@ -28,6 +28,7 @@
 	}
 
 	img {
+  		background-color: #eee;
 		border: 0; @if normalize-get("options", "explanatory comments") and normalize-get("options", "legacy support for ie7") { /* 1 */ }
 		@if normalize-get("options", "legacy support for ie7") {
 			-ms-interpolation-mode: bicubic; @if normalize-get("options", "explanatory comments") { /* 2 */ }

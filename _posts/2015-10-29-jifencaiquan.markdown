@@ -69,4 +69,4 @@ icon: images/04icon.jpg
 
 整个活动突出游戏，让用户沉浸游戏，在游戏结束后拿到红包才慢慢引导用户去消费，以及渗透什么是一元夺宝的概念。
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>

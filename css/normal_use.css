@@ -22,15 +22,14 @@ $ch-light:FZLanTingHeiS-EL-GB;*/
     margin:0 2% 2% auto; 
     float:left;
     width:48%;
-  
-
+    background-color: #eee;
 }
 
 .article_right_img{
     margin:0 auto 2% 2%;
     float:right;
     width:48%;
-    
+    background-color: #eee;
 }
 
 .article_maintitle {

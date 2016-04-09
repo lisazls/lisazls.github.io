@@ -29,7 +29,7 @@ body {
 }
 
 .kong {
-  height:56px;
+  height:53px;
 
 }
 
@@ -66,6 +66,13 @@ h1 {
     color: $medium-gray-color;
     height: 40px;
     line-height: 40px;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $dark-gray-color;
+      }
+
   }
 
   .navbar {
@@ -373,7 +380,7 @@ body.home {
 /* Site footer */
 .site-footer {
   background-color: $white-color;
-  border-top: 1px solid rgba($light-gray-color, .5);
+  border-top: 1px solid #eeeeee;
   padding: $base-spacing;
   text-align: center;
 
