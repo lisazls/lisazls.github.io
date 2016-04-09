@@ -19,7 +19,8 @@ icon: images/06icon.jpg
 
 
 * <span class="article_subtitle">游戏类型</span>  ： 分享助力红包活动
-* <span class="article_subtitle">获得经验</span>  <br />
+
+* <span class="article_subtitle">相关活动经验</span>  <br />
 （1）没玩助力红包时的体验（web与适配）<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;让老用户产生想要充值的欲望（用红包引诱）<br />
 （2）充值者 A 的助力红包的体验（web端与适配版）<br />
@@ -29,8 +30,15 @@ icon: images/06icon.jpg
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②自己获得红包后想要查看红包，产生进入夺宝的想法，最终花费红包。<br />
 （4）玩过助力红包之后，再充值的体验<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;虽然没有助力红包了，但依然有5元红包。<br />
-（5）整个游戏结束，其他人通过分享链接再进来的体验。<br />
+（5）助力过后再次进入后的界面，及引导动作。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;引导去消费。<br />
+（6）整个游戏结束，其他人通过分享链接再进来的体验。<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;依然可以看到活动界面，但是是已经结束了，引导其去夺宝逛逛<br />
+
+* <span class="article_subtitle">获得经验</span>  <br />
+（1）找准各个步骤的不同目的，来思考设计目标。
+（2）思考不同人玩这个游戏的不同流程。
+（3）这种跨平台，或者流程较复杂的活动，做好做出页面流程，以方便后续程序相关的理解。
 
 
 
@@ -65,8 +73,12 @@ icon: images/06icon.jpg
 </div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-流程图<br>
+
+* <span class="article_subtitle">流程图</span> <br>
 	<img src="{{ site.baseurl }}/images/06flow.jpg" alt="流程图" >  	
+
+* <span class="article_subtitle">页面流程</span> <br>
+	<img src="{{ site.baseurl }}/images/06pageflow.jpg" alt="流程图" >  	
 
 
 

@@ -15,9 +15,9 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 {% assign maintitle = '总内容' %}
 {% include article_maintitle.html%}
 
-1.指导原则（可用性原则）<br>
-2.用户模式（用户是如何使用web的）<br>
-3.如何做<br>
+<span class="article_subtitle">1.指导原则（可用性原则）</span> <br>
+<span class="article_subtitle">2.用户模式（用户是如何使用web的）</span> <br>
+<span class="article_subtitle">3.如何做</span> <br>
 
 * 主页布局<br>
 
@@ -62,7 +62,7 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 
 * <span class="article_subtitle">扫描</span> <br>
 
-1.原因
+（1）原因
 
 - ①我们总是在忙碌中
 
@@ -70,7 +70,7 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 
 - ③我们善于扫描
 
-2·注意力一般会在下述特征的文字上
+（2）注意力一般会在下述特征的文字上
 
 - ①与手头任务相关的
 
@@ -82,7 +82,7 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 
 * <span class="article_subtitle">满意即可</span> <br>
 
-1.原因
+（1）原因
 
 - ①我们总是处在忙碌之中
 
@@ -92,7 +92,7 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 
 - ④猜测更有意思
 
-2.人们会权衡取决于：
+（2）人们会权衡取决于：
 
 - ①头脑中的打算
 
@@ -104,15 +104,15 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 
 * <span class="article_subtitle">勉强应付</span> <br>
 
-1.原因
+（1)原因
 
 - ①这对我们来说并不重要
 
 - ②如果发现某个事物能用，我们会一直用它
 
-2·问题：有时候可以勉强应付，但是通常效率不高，且容易出错。
+（2）问题：有时候可以勉强应付，但是通常效率不高，且容易出错。
 
-3·如果用户明白了
+（3）如果用户明白了
 
 - ①他们更容易找到自己需要的东西，无论对用户还是对你都好。
 
@@ -127,27 +127,28 @@ summary2: 别让我思考;：无需思考;省略不必要的文字.
 {% include article_maintitle.html%}
 
 
-1.建立清楚的视觉层次
-
-&nbsp;&nbsp;&nbsp;&nbsp; <span class="article_subtitle">突出</span>：越重要的部分越突出【大、粗、颜色特别、旁边留有更多空白、更接近页面顶部】<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp; <span class="article_subtitle">分组</span>：逻辑上相关的部分在视觉上也相关【把相近内容分成一组、放在同一个标题之下、采用类似的显示样式、放在定义明确的区域之内】<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp; <span class="article_subtitle">嵌套</span>：逻辑上包含的部分在视觉上进行嵌套<br>
+<span class="article_subtitle">1.建立清楚的视觉层次</span>
 
 
+&nbsp;&nbsp;&nbsp;&nbsp; 突出：越重要的部分越突出【大、粗、颜色特别、旁边留有更多空白、更接近页面顶部】<br>
 
-2.尽量利用习惯用法
+&nbsp;&nbsp;&nbsp;&nbsp; 分组：逻辑上相关的部分在视觉上也相关【把相近内容分成一组、放在同一个标题之下、采用类似的显示样式、放在定义明确的区域之内】<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp; 嵌套：逻辑上包含的部分在视觉上进行嵌套<br>
+
+
+<span class="article_subtitle">2.尽量利用习惯用法</span>
 
 - 他们非常有用
 
 - 设计师通常不愿意利用他们
 
-3.把页面划分成明确定义的区域
+<span class="article_subtitle">3.把页面划分成明确定义的区域</span>
 
-4.明显表示可以点击的地方
+<span class="article_subtitle">4.明显表示可以点击的地方</span>
 
-5.最大限度降低干扰
+<span class="article_subtitle">5.最大限度降低干扰</span>
+
 
 - 眼花缭乱
 
