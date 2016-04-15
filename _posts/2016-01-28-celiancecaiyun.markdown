@@ -70,7 +70,7 @@ icon: images/05icon.jpg
 	<img src="{{ site.baseurl }}/images/05interface2.jpg" alt="分数结果页面" >  	
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 {% assign maintitle = '数据相关' %}
 {% include article_maintitle.html%}
